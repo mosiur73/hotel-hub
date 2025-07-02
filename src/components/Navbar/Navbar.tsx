@@ -17,6 +17,7 @@ import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
+import ListItemButton from "@mui/material/ListItemButton";
 
 const Navbar = () => {
   const [anchorElCurrency, setAnchorElCurrency] = React.useState<null | HTMLElement>(null);
@@ -212,9 +213,11 @@ const Navbar = () => {
         >
           <List>
             {navLinks.map((text) => (
-              <ListItem button key={text}>
-                <ListItemText primary={text} />
-              </ListItem>
+             <ListItem disablePadding key={text}>
+  <ListItemButton>
+    <ListItemText primary={text} />
+  </ListItemButton>
+</ListItem>
             ))}
           </List>
 
