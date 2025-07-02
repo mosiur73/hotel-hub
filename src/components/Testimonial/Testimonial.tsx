@@ -15,7 +15,7 @@ import {
   Star,
 } from "@mui/icons-material";
 
-export default function GuestReviews() {
+export default function Testimonial() {
   const reviews = [
     {
       id: 1,
@@ -218,7 +218,7 @@ export default function GuestReviews() {
                     lineHeight: 1.4,
                   }}
                 >
-                  "{review.title}"
+                   &quot;{review.title}&quot;
                 </Typography>
 
                 {/* Review Content */}
@@ -231,7 +231,7 @@ export default function GuestReviews() {
                     fontSize: "14px",
                   }}
                 >
-                  "{review.content}"
+                 &quot;{review.content}&quot;
                 </Typography>
 
                 {/* Star Rating */}

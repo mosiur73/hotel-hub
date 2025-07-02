@@ -189,7 +189,7 @@ export default function HotelAvailability() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {roomData.map((room, index) => (
+            {roomData.map((room, ) => (
               <TableRow key={room.id} sx={{ "&:nth-of-type(even)": { backgroundColor: "#f9fafb" } }}>
                 {/* Room Type */}
                 <TableCell sx={{ py: 3, minWidth: 200 }}>

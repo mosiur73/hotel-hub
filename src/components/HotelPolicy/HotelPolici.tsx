@@ -12,8 +12,8 @@ export default function HotelPolicies() {
             Available 24 hours
           </Typography>
           <Typography variant="body2" sx={{ color: "#6b7280", lineHeight: 1.5 }}>
-            Guests are required to show a photo identification and credit card upon check-in. You'll need to let the
-            property know in advance what time you'll arrive.
+            Guests are required to show a photo identification and credit card upon check-in. You ll need to let the
+            property know in advance what time you ll arrive.
           </Typography>
         </Box>
       ),
