@@ -13,7 +13,7 @@ export default function PropertyBooking() {
   ]
 
   return (
-    <div className="max-w-7xl mx-auto p-6 bg-gray-50 h-fit">
+    <div className="w-full mx-auto p-6 bg-gray-50 h-fit lg:pr-20">
       {/* Navigation Tabs */}
       <div className="flex items-center gap-6 mb-8">
         <button className="text-blue-600 font-medium border-b-2 border-blue-600 pb-2">Over View</button>
